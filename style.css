@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(158, 176, 199);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-family: 'Syne Tactile',cursive;
+  font-size: 2rem;
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  color: rgb(15, 14, 14);
+}
+
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(228, 250, 104, 0.425);
+  border-radius: 0.5em;
+  width: 40vw;
+  height: auto;
+}
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+
+button {
+  border-bottom: 2rem 2rem;
+  color: rgba(15, 14, 14, 0.938);
+  font-weight:700;
+  background-color: rgba(247, 184, 213, 0.945);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  height: 70px;
+}

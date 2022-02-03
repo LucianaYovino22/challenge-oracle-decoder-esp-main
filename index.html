@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+  <title>Challenge Oracle 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <p for="input-texto">Solo letras minúsculas, sin acento</p>
+        <input class="text-input" type="text" name="input-texto" id="inputTexto" placeholder="Ingrese el texto aqui">
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptado:</h2>
+      <input class="text-input" type="text" id="texto2">
+      <button type="button" id="copiar" name="button"onclick="copiar()">Copiar</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
